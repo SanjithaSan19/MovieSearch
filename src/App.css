@@ -1,0 +1,42 @@
+.data{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+}
+@media (max-width: 700px) {
+  .data {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 400px) {
+  .data {
+    grid-template-columns: auto ;  
+  }
+}
+.input{
+  padding: 10px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.input input{
+  width: 40%;
+  padding: 5px;
+}
+.input button{
+  padding:5px;
+  width :100px;
+  background:#000000;
+  border-radius: 5px;
+  color: aliceblue;
+  border: 1px;
+  /* margin:10px; */
+  transition: background-color 1s;
+}
+.input button:hover{
+  background-color: aliceblue;
+  color: black;
+  
+}
+body{
+  background: black;
+}
